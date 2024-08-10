@@ -150,6 +150,15 @@ app.*.symbols
 /ios/Runner/GoogleService-Info.plist
 /functions
 
+# Supabase related files
+supabase/.env.local
+supabase/.env.production
+supabase/.env.development
+supabase/config.json
+supabase/.supabase
+supabase/migrations/
+supabase/.temp/
+
 # Ignore any other environment files or secrets
 .env
 .env.*
